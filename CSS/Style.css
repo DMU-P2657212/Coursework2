@@ -1,0 +1,109 @@
+#logo{
+  float: left;
+  width:10%
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:grey;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 120px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: brown;
+}
+body{
+  background-color: grey;
+}
+header{
+  background-color: grey;
+}
+h1{
+  font-family: serif;
+  text-align: center;
+}
+h2{
+  font-family: serif;
+  text-align: center;
+}
+.active{
+  background-color: brown;
+}
+video{
+  width: 100%;
+}
+.text{
+  float: left;
+  font-family: serif;
+  font-size: 30px;
+  display: flex;
+  background-color: yellow;
+  width: 49.5%;
+  height: 400px;
+}
+.smallgallery{
+display: flex;
+float: right;
+background-color: green;
+width: 49.5%;
+height: 400px;
+}
+#brie{
+  width: 50%;
+  height: 60%;
+}
+#moz{
+  width: 50%;
+  height: 60%;
+}
+.sidebar{
+  background-color: grey;
+  width: 26%;
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 703px;
+}
+.infotext{
+  background-color: grey;
+  display: inline-flex;
+  font-size: 30px;
+  font-family: serif;
+}
+#one{
+  float: right;
+  width: 74%;
+}
+#two{
+  float:right;
+  width: 74%
+}
+footer{
+  text-align: center;
+  font-size: 40px;
+  background-color: yellow;
+}
+.gallery{
+  display: flex;
+  width: 100%;
+  flex-grow: 1
+
+}
+#gal{
+  width: 20%
+}
